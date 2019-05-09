@@ -1,0 +1,20 @@
+div.v-card {
+  cursor: pointer;
+}
+.theme-img-height {
+  height: 25vh;
+}
+.theme-card-width {
+  width: 350px;
+}
+@media only screen and (max-width: 1024px) {
+  .theme-card-width {
+    width: 80vw;
+  }
+  .theme-img-height {
+    height: 40vh;
+  }
+}
+a {
+  text-decoration: none;
+}
